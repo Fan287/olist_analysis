@@ -16,7 +16,7 @@ Olist is an online retailer in Brazil that provides data on up to 100,000 orders
 ## Analysis Procedures
 ### Check the present repurchase rate by SQL query
 ![olist_repurchase_rate_sql](https://github.com/Fan287/olist_analysis/assets/148685693/d5205689-619a-4471-8834-372bb4fd677d)
-The result shows repurchase rate is appoximately 3%, which is seriously low. To find out the reasons, customers' comments are assumed possibly provide some hits to explain.
+The result shows that the repurchase rate is approximately 3%, which is significantly low. To identify the reasons, customer comments are assumed to potentially provide some insights.
 
 ### Find out the customer's thought by Python (NLTK)
 - NLTK is used to tokenize over 40,000 customers' comments and filter out the stop words. And it provides a list of frequency of meaningful words. The top ten of the list:
@@ -43,7 +43,7 @@ The result shows repurchase rate is appoximately 3%, which is seriously low. To 
 
 ## Suggestion to Olist
 - The suggestion: Encourage more sellers set up more warehouses and store specfic product categories in specific states 
-  - recommendation of specfic product catgories in statas with priority:
+  - recommendation of specfic product catgories in states with priority:
    ![product_recom_table](https://github.com/Fan287/olist_analysis/assets/148685693/e8867cb9-820a-43f6-bb59-5e0d6a930706)
   - To persuade sellers, Olist can set up its own warehouses and sell the suggested products in these states for a period of six months. Olist should gather data during this period to demonstrate the profitability of such a business approach. Sellers would be more incentivized to join the plan when they see the potential for profit
   - The ideal outcome would be customers being able to buy products locally, thus reducing shipping time and costs. This may improve their user experience and encourage them to use Olist more frequently. As a result, the repurchase rate is expected to increase. 
