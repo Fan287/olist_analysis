@@ -23,8 +23,8 @@ The result shows that the repurchase rate is approximately 3%, which is signific
   -  ('product', 15871), ('delivery', 5316), ('arrived', 4937), ('time', 4845), ('good', 4452), ('recommend', 4422), ('received', 4403), ('delivered', 4268), ('deadline', 3075), ('came', 2824)
 - Mainly, customers emphasized two things, the product quality and delivery. Since the dataset did not provide enough data for analysing product quality, this will not be the focus in this analysis. The focus will be studying the delivery, especially the shipping distance.
 
-### Find out the shipping distance of orders by Python (Matplotlib, Pandas) and show the result in Power BI
-- To draw the line between acceptable and far distance, matplotlib is used to demostrate at which distance level, the goods are needed to be delivered between two states.
+### Find out the shipping distance of orders using Python (Matplotlib, Pandas) and show the result in Power BI
+- Matplotlib is used to draw a line between acceptable and far distance to demonstrate at which distance level goods need to be delivered between two states.
 ![distance_categories_state](https://github.com/Fan287/olist_analysis/assets/148685693/47d2899d-56f8-4165-b970-e4025bedcbad)
   - Note: 0 and 1 represent 'order shipping across states' and 'order shipping within a state'
   - It shows most orders are shipped across states when the shipping distance is at 500 km. Thus, within 500 km will be treated as acceptable distance, more than 500 km as too far.
@@ -35,11 +35,11 @@ The result shows that the repurchase rate is approximately 3%, which is signific
   - The orders with the farthest distances are concentrated in the coastal regions in the upper right corner.
   - This insight suggests that most sellers are located in São Paulo State, while other states have an undesirable sellers-to-customer ratio.
 
-### To prove whether the insight is valid, find out the customers and sellers ratio in each state
+### To validate the insight, find out the customer-to-seller ratio in each state
 ![cust_sell_ratio](https://github.com/Fan287/olist_analysis/assets/148685693/53e120a6-912d-4f97-b22c-78aaf6c7a41d)
   - Note: The color of states is correspond to the graph of shipping distance. Blue is 1 seller: less than 100 customers; purple is between 100 to 200; red is between 200 to 4000.
   - The graph aligns with the graph of shipping distance. Blue areas are concentrated in the lower right corner, while other areas are either purple or red, indicating an unfavorable customers-to-sellers ratio.
-  - In conclusion, the orders have long shipping distances because some states have too few sellers to meet local demand.  
+  - In conclusion, the orders have long shipping distances because some states have too few sellers to meet local state demand.  
 
 ## Recommendations to Olist
 - The Recommendations: Encourage more sellers set up more warehouses and store specfic product categories in specific states 
