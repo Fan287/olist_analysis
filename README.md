@@ -38,13 +38,15 @@ The result shows that the repurchase rate is approximately 3%, which is signific
 ### To prove whether the insight is valid, find out the customers and sellers ratio in each state
 ![cust_sell_ratio](https://github.com/Fan287/olist_analysis/assets/148685693/53e120a6-912d-4f97-b22c-78aaf6c7a41d)
   - Note: The color of states is correspond to the graph of shipping distance. Blue is 1 seller: less than 100 customers; purple is between 100 to 200; red is between 200 to 4000.
-  - The graph aligns with the graph of shipping distance. Blue areas (1 seller: less than 100 customers) are concentrated in the lower right corner, while other areas are either purple or red, indicating an unfavorable customers-to-sellers ratio.
+  - The graph aligns with the graph of shipping distance. Blue areas are concentrated in the lower right corner, while other areas are either purple or red, indicating an unfavorable customers-to-sellers ratio.
   - In conclusion, the orders have long shipping distances because some states have too few sellers to meet local demand.  
 
-## Suggestion to Olist
-- The suggestion: Encourage more sellers set up more warehouses and store specfic product categories in specific states 
+## Recommendations to Olist
+- The Recommendations: Encourage more sellers set up more warehouses and store specfic product categories in specific states 
   - recommendation of specfic product catgories in states with priority:
    ![product_recom_table](https://github.com/Fan287/olist_analysis/assets/148685693/e8867cb9-820a-43f6-bb59-5e0d6a930706)
+    - The suggested ranking is based on a comparison of the sellers' ratios in each state. States with lower seller ratios are prioritized in the ranking.
+    - As for the product recommendations, it involves calculating the difference between the number of items sold and purchased for each product category in each state. The top five product categories with the largest differences are then ranked in descending order
   - To persuade sellers, Olist can set up its own warehouses and sell the suggested products in these states for a period of six months. Olist should gather data during this period to demonstrate the profitability of such a business approach. Sellers would be more incentivized to join the plan when they see the potential for profit
   - The ideal outcome would be customers being able to buy products locally, thus reducing shipping time and costs. This may improve their user experience and encourage them to use Olist more frequently. As a result, the repurchase rate is expected to increase. 
 
